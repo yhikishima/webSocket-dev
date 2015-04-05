@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+
+  img(id="image",src="/images/slide-1.png",width="300px",height="200")
+  br
+  input(id="prev",value="prev",type="button")
+  input(id="next",value="next",type="button")
+
+  script(src="/javascripts/slide.js")
